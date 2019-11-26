@@ -1,0 +1,44 @@
+.schedule
+  &-list
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+  &__item
+    width: 258px
+    margin-right: 16px
+  &__time
+    font-size: 18px
+    color: #5f5b5b
+    font-family: 'Circe Regular'
+    letter-spacing: -0.16px
+    display: block
+    text-align: center
+    margin-top: 19px
+    margin-bottom: 17px
+  &__title
+    color: #5f5b5b
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    font-family: 'Circe Regular'
+    text-transform: uppercase
+    letter-spacing: -0.13px
+    margin-bottom: 11px
+  &__author
+    font-size: 16px
+    font-family: 'Circe Regular'
+    color: #5f5b5b
+    letter-spacing: -0.15px
+    display: block
+    text-align: center
+    margin-bottom: 37px
+.border
+  border: 10px solid white
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    background: url('../img/schedule/play.png')
+    top: 50%
+    left: 50%
+

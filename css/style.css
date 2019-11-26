@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.main {
+  width: 1600px;
+  margin: auto;
+  background: url("../img/bg/bg-1.jpg") center center;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url("../fonts/Lobster/Lobster.eot");
+  src: url("../fonts/Lobster/") format("embedded-opentype"), url("../fonts/Lobster/Lobster.woff") format("woff"), url("../fonts/Lobster/Lobster.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PFCentroSlabProBold";
+  src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot");
+  src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"), url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Circe Regular';
+  src: url("../fonts/Circe Regular/");
+  src: url("../fonts/Circe Regular/?#iefix") format("embedded-opentype"), url("../fonts/Circe Regular/Circe-Regular.woff") format("woff"), url("../fonts/Circe Regular/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe Bold';
+  src: url("../fonts/Circe Bold/");
+  src: url("../fonts/Circe Bold/?#iefix") format("embedded-opentype"), url("../fonts/Circe Bold/Circe-Bold.woff") format("woff"), url("../fonts/Circe Bold/Circe-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-logo {
+  margin-left: 20px;
+}
+
+.navbar-smm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar-smm__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 11px;
+  fill: #e02222;
+  width: 32px;
+  height: 31px;
+  border: 2px solid #e02222;
+  border-radius: 100%;
+}
+
+.navbar-smm__link:hover {
+  fill: #ff4e4e;
+  border-color: #ff4e4e;
+}
+
+.navbar-smm__link_ok {
+  width: 13px;
+  height: 19px;
+}
+
+.navbar-smm__link_fb {
+  width: 10px;
+  height: 18px;
+}
+
+.navbar-smm__link_vk {
+  width: 11px;
+  height: 16px;
+}
+
+.head-data_text {
+  text-align: center;
+  font-family: Lobster;
+  font-size: 45px;
+  color: #5f5b5b;
+  letter-spacing: 0.31px;
+  font-weight: 400;
+  font-family: 'Lobster';
+}
+
+.head-title_text {
+  text-align: center;
+  font-family: "PFCentroSlabProBold";
+  color: #f94f33;
+  font-size: 80px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.head-subtitle_text {
+  display: block;
+  margin: auto;
+  text-align: center;
+  letter-spacing: -0.16px;
+  line-height: 22px;
+  font-size: 18px;
+  color: #5f5b5b;
+  font-family: 'Circe Regular';
+}
+
+.head-schedule {
+  margin-bottom: 62px;
+}
+
+.head-schedule_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 46px;
+  text-transform: uppercase;
+  color: #e02222;
+  font-family: 'Circe Bold';
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.head-schedule_text:hover {
+  color: #ff4e4e;
+}
+
+.head-schedule_text:hover .head-list {
+  fill: #ff4e4e;
+}
+
+.head-list {
+  margin-right: 16px;
+  width: 33px;
+  height: 29px;
+  fill: #e02222;
+  cursor: pointer;
+}
+
+.schedule-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.schedule__item {
+  width: 258px;
+  margin-right: 16px;
+}
+
+.schedule__time {
+  font-size: 18px;
+  color: #5f5b5b;
+  font-family: 'Circe Regular';
+  letter-spacing: -0.16px;
+  display: block;
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 17px;
+}
+
+.schedule__title {
+  color: #5f5b5b;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  font-family: 'Circe Regular';
+  text-transform: uppercase;
+  letter-spacing: -0.13px;
+  margin-bottom: 11px;
+}
+
+.schedule__author {
+  font-size: 16px;
+  font-family: 'Circe Regular';
+  color: #5f5b5b;
+  letter-spacing: -0.15px;
+  display: block;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.border {
+  border: 10px solid white;
+  position: relative;
+}
+
+.border::before {
+  content: '';
+  position: absolute;
+  background: url("../img/schedule/play.png");
+  top: 50%;
+  left: 50%;
+}
+/*# sourceMappingURL=style.css.map */
