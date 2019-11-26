@@ -214,10 +214,6 @@ img {
   cursor: pointer;
 }
 
-.schedule {
-  padding-bottom: 68px;
-}
-
 .schedule-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,5 +396,96 @@ img {
 
 .footer__link {
   margin-left: 58px;
+}
+
+.gifts {
+  display: none;
+  padding-top: 60px;
+  background-color: #ffffff;
+}
+
+.gifts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.gifts-slider {
+  width: 498px;
+  margin: auto;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.gift__item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gift__title {
+  text-align: center;
+  font-family: "PFCentroSlabProBold";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 79.56px;
+}
+
+.gift__contest {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: -0.15px;
+  font-size: 16px;
+  color: #5f5b5b;
+  line-height: 22px;
+}
+
+.gift__time {
+  font-family: 'Circe Regular';
+  color: #5f5b5b;
+  letter-spacing: -0.11px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28.06px;
+}
+
+.gift__winner {
+  color: #5f5b5b;
+  font-size: 14px;
+  letter-spacing: -0.13px;
+  line-height: 24px;
+  font-family: 'Circe Regular';
+}
+
+.gift__add {
+  font-family: 'Circe Regular';
+  font-size: 18px;
+  color: #e02222;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 73px;
+  margin-right: 12px;
+}
+
+.gift-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gift-hidden {
+  display: none;
+}
+
+.gift__men {
+  color: #9b9b9b;
+}
+
+.slide {
+  border: 10px solid #ebebeb;
 }
 /*# sourceMappingURL=style.css.map */
