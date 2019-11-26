@@ -20,8 +20,9 @@ img {
 }
 
 .footer {
-  width: 1600px;
-  margin: auto;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main {
