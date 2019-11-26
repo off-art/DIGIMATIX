@@ -13,8 +13,30 @@ img
 .container
     width: 1000px
     margin: auto
-
+.footer
+    width: 1600px
+    margin: auto
 .main
     width: 1600px
     margin: auto
     background: url('../img/bg/bg-1.jpg') center center
+    position: relative
+    overflow: hidden
+    &::before
+        position: absolute
+        content: ''
+        width: 253px
+        height: 796px
+        left: -20px
+        top: 150px
+        background: url('../img/left.png')
+    &::after
+        
+        position: absolute
+        content: ''
+        width: 314px
+        height: 1017px
+        right: -80px
+        top: 145px
+        background: url('../img/right.png')
+        

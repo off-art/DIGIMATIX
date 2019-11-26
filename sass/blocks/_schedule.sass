@@ -1,4 +1,5 @@
 .schedule
+  padding-bottom: 68px
   &-list
     display: flex
     justify-content: center
@@ -6,6 +7,14 @@
   &__item
     width: 258px
     margin-right: 16px
+    &:hover
+      cursor: pointer
+      .schedule
+        &__time, &__title, &__author
+          color: #f94f33
+        &__img
+          &::before
+            opacity: 1
   &__time
     font-size: 18px
     color: #5f5b5b
@@ -32,13 +41,69 @@
     display: block
     text-align: center
     margin-bottom: 37px
-.border
-  border: 10px solid white
-  position: relative
-  &::before
-    content: ''
-    position: absolute
-    background: url('../img/schedule/play.png')
-    top: 50%
-    left: 50%
+  &__img
+    position: relative
+    border: 10px solid #fff
+    &::before
+      position: absolute
+      content: ''
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(249, 79, 51, 0.5)
+      opacity: 0
+      z-index: 999
+    &::after
+      position: absolute
+      content: ''
+      width: 70px
+      height: 71px
+      background: url('../img/schedule/play.png') no-repeat
+      top: 25%
+      left: 35%
 
+      z-index: 1000
+  &__button
+    display: block
+    margin: auto
+    margin-top: 55px
+    width: 372px
+    height: 77px
+    color: #ffffff
+    letter-spacing: 0.74px
+    font-size: 27px
+    background-color: #f87846
+    border-radius: 50px 
+    margin-bottom: 34px
+  &-links
+    display: flex
+    justify-content: center
+    &:hover
+      .schedule__link
+        color: #ff4e4e
+      .schedule__arrow
+        border-color: #ff4e4e
+        fill: #ff4e4e
+        cursor: pointer
+    
+    
+  &__link
+    cursor: pointer
+    font-family: 'Circe Regular'
+    color: #e02222
+    font-size: 18px
+    letter-spacing: -0.16px
+    text-decoration: none
+    margin-bottom: 66px
+    margin-right: 12px
+    
+
+  &__arrow
+    cursor: pointer
+    width: 21px
+    height: 22px
+    fill: #e02222
+    padding: 1px
+    border: 2px solid #e02222
+    border-radius: 50%
