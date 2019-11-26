@@ -5,6 +5,7 @@ $('.schedule__link').click(function (e) {
 $('.gift__add').click(function (e) {
   e.preventDefault();
   $('.gift-hidden').toggle();
+  $('.gift__add').text('Свернуть');
 });
 
 
