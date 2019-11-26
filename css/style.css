@@ -25,8 +25,9 @@ img {
 }
 
 .main {
-  width: 1600px;
-  margin: auto;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
   background: url("../img/bg/bg-1.jpg") center center;
   position: relative;
   overflow: hidden;
