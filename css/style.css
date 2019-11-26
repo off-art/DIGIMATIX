@@ -6,6 +6,11 @@
   font-family: sans-serif;
 }
 
+button, a {
+  outline: none;
+  cursor: pointer;
+}
+
 body {
   background-color: #f0f0f0;
 }
@@ -58,6 +63,27 @@ img {
   background: url("../img/right.png");
 }
 
+.owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.owl-dot {
+  background: red !important;
+  width: 10px;
+  margin-top: 25px !important;
+  margin: 10px;
+  border-radius: 100%;
+  height: 10px;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+
 @font-face {
   font-family: 'Lobster';
   src: url("../fonts/Lobster/Lobster.eot");
@@ -86,6 +112,14 @@ img {
   font-family: 'Circe Bold';
   src: url("../fonts/Circe Bold/");
   src: url("../fonts/Circe Bold/?#iefix") format("embedded-opentype"), url("../fonts/Circe Bold/Circe-Bold.woff") format("woff"), url("../fonts/Circe Bold/Circe-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazing Grotesk';
+  src: url("../fonts/Circe Bold/");
+  src: url("../fonts/Circe Bold/?#iefix") format("embedded-opentype"), url("../fonts/Amazing Grotesk/amazing-grotesk.regular.woff") format("woff"), url("../fonts/Amazing Grotesk/amazing-grotesk.regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -309,6 +343,7 @@ img {
 }
 
 .schedule__button {
+  font-family: 'Amazing Grotesk';
   display: block;
   margin: auto;
   margin-top: 55px;
@@ -317,9 +352,17 @@ img {
   color: #ffffff;
   letter-spacing: 0.74px;
   font-size: 27px;
-  background-color: #f87846;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e45634), to(#d24227));
+  background: linear-gradient(#e45634, #d24227);
   border-radius: 50px;
   margin-bottom: 34px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.schedule__button:hover {
+  background: #da5238;
 }
 
 .schedule-links {

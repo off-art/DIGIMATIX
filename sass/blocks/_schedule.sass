@@ -65,6 +65,7 @@
 
       z-index: 1000
   &__button
+    font-family: 'Amazing Grotesk'
     display: block
     margin: auto
     margin-top: 55px
@@ -73,9 +74,15 @@
     color: #ffffff
     letter-spacing: 0.74px
     font-size: 27px
-    background-color: #f87846
+    border: none
+    background: linear-gradient(#e45634, #d24227)
     border-radius: 50px 
     margin-bottom: 34px
+    &:hover
+      background: lighten(#d24227, 5%)
+
+    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   &-links
     display: flex
     justify-content: center

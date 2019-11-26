@@ -2,37 +2,47 @@
   font-family: 'Lobster';
   src: url('../fonts/Lobster/Lobster.eot');
   src: url('../fonts/Lobster/') format('embedded-opentype'),
-  url('../fonts/Lobster/Lobster.woff') format('woff'),
-  url('../fonts/Lobster/Lobster.ttf') format('truetype');
+    url('../fonts/Lobster/Lobster.woff') format('woff'),
+    url('../fonts/Lobster/Lobster.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
-  @font-face {
-    font-family: "PFCentroSlabProBold";
-    src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot");
-    src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
+@font-face {
+  font-family: "PFCentroSlabProBold";
+  src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot");
+  src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
     url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"),
     url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
 }
+
 @font-face {
   font-family: 'Circe Regular';
   src: url('../fonts/Circe\ Regular/');
   src: url('../fonts/Circe\ Regular/?#iefix') format('embedded-opentype'),
-  url('../fonts/Circe\ Regular/Circe-Regular.woff') format('woff'),
-  url('../fonts/Circe\ Regular/Circe-Regular.ttf') format('truetype');
+    url('../fonts/Circe\ Regular/Circe-Regular.woff') format('woff'),
+    url('../fonts/Circe\ Regular/Circe-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
-  @font-face {
-    font-family: 'Circe Bold';
-    src: url('../fonts/Circe\ Bold/');
-    src: url('../fonts/Circe\ Bold/?#iefix') format('embedded-opentype'),
+@font-face {
+  font-family: 'Circe Bold';
+  src: url('../fonts/Circe\ Bold/');
+  src: url('../fonts/Circe\ Bold/?#iefix') format('embedded-opentype'),
     url('../fonts/Circe\ Bold/Circe-Bold.woff') format('woff'),
     url('../fonts/Circe\ Bold/Circe-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Amazing Grotesk';
+  src: url('../fonts/Circe\ Bold/');
+  src: url('../fonts/Circe\ Bold/?#iefix') format('embedded-opentype'),
+    url('../fonts/Amazing Grotesk/amazing-grotesk.regular.woff') format('woff'),
+    url('../fonts/Amazing Grotesk/amazing-grotesk.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
