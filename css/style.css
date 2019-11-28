@@ -124,6 +124,42 @@ img {
   font-style: normal;
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .navbar {
   padding-top: 20px;
   display: -webkit-box;
@@ -280,6 +316,8 @@ img {
 
 .schedule__item:hover .schedule__img::before {
   opacity: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .schedule__time {
@@ -449,6 +487,8 @@ img {
 
 .gifts {
   display: none;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
   padding-top: 60px;
   background-color: #ffffff;
 }
@@ -528,6 +568,8 @@ img {
 
 .gift-hidden {
   display: none;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
 }
 
 .gift__men {
